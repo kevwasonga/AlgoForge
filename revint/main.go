@@ -1,4 +1,3 @@
-package revint
 package main
 
 import (
