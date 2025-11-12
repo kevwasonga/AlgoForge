@@ -1,0 +1,44 @@
+LIBRARY MANAGEMENT SYSTEM - STARTUP INSTRUCTIONS
+
+=== WINDOWS USERS ===
+
+Option 1: VBS Script (Recommended)
+- Double-click "run.vbs" file
+- This will start the system automatically
+
+Option 2: Batch File
+- Right-click "start.bat" → "Run as administrator" OR
+- Right-click "start.bat" → "Open with" → "Command Prompt"
+
+Option 3: Manual Command
+- Open Command Prompt in this folder
+- Type: start.bat
+- Press Enter
+
+=== LINUX/MAC USERS ===
+
+Option 1: Shell Script
+- Right-click "start.sh" → "Run in Terminal" OR
+- Open terminal in this folder and run: ./start.sh
+
+Option 2: Make Executable (if needed)
+- Open terminal in this folder
+- Run: chmod +x start.sh
+- Then double-click start.sh
+
+=== ALTERNATIVE FOR ALL SYSTEMS ===
+
+Manual PHP Server:
+1. Open terminal/command prompt in this folder
+2. Run: php -S localhost:8080
+3. Open browser to: http://localhost:8080
+
+=== DEFAULT LOGIN ===
+Admin: admin@library.com / password
+Students: Register new accounts
+
+=== TROUBLESHOOTING ===
+- Ensure PHP is installed and in system PATH
+- Windows: Download PHP from php.net
+- Ubuntu: sudo apt install php
+- macOS: brew install php
