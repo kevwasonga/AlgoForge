@@ -108,9 +108,9 @@ $student_id = $_SESSION['user_id'];
                         <td><?= date('M j, Y', strtotime($request['timestamp'])) ?></td>
                         <td>
                             <?php if ($request['file_link']): ?>
-                            <a href="<?= htmlspecialchars($request['file_link']) ?>" target="_blank" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;">View Book</a>
+                            <a href="<?= htmlspecialchars($request['file_link']) ?>" target="_blank" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;">View PDF</a>
                             <?php else: ?>
-                            <span style="color: #6c757d;">No link available</span>
+                            <span style="color: #6c757d;">No PDF available</span>
                             <?php endif; ?>
                         </td>
                     </tr>
