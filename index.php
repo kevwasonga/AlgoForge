@@ -48,11 +48,12 @@ require_once 'db.php';
             <p>Discover our collection of books across various categories including Programming, Science, Literature, and more.</p>
             
             <?php
-            $books = $conn->query("SELECT * FROM books ORDER BY id DESC LIMIT 12");
+            $limit = isset($_SESSION['user_id']) ? 12 : 10;
+            $books = $conn->query("SELECT * FROM books ORDER BY id DESC LIMIT $limit");
             $books_data = $books->fetchAll(PDO::FETCH_ASSOC);
             if (count($books_data) > 0):
             ?>
-            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+            <div style="display: grid; grid-template-columns: repeat(<?= isset($_SESSION['user_id']) ? '4' : '5' ?>, 1fr); gap: 1rem; margin: 2rem 0;">
                 <?php foreach ($books_data as $book): ?>
                 <div class="card" style="margin: 0; text-align: center;">
                     <?php if ($book['image_url']): ?>
