@@ -49,13 +49,25 @@ A lightweight, modern library management system built with PHP and SQLite featur
 
 5. **Access the System**
    
-   **Option A: Using XAMPP/WAMP**
-   - Open browser and go to: http://localhost/library/
+   **Option A: Automated Startup (Recommended)**
    
-   **Option B: Using PHP Built-in Server (Recommended)**
-   - Open command prompt in the library folder
+   **Windows:**
+   - Double-click `run.vbs` file (recommended) OR
+   - Right-click `start.bat` → "Run as administrator" OR
+   - Open Command Prompt and run `start.bat`
+   
+   **Linux/macOS:**
+   - Double-click `start.sh` file OR
+   - Right-click `start.sh` → "Run in Terminal" OR
+   - Run `./start.sh` in terminal
+   
+   **Option B: Manual Startup**
+   - Open command prompt/terminal in the library folder
    - Run: `php -S localhost:8080`
    - Open browser and go to: http://localhost:8080/
+   
+   **Option C: Using XAMPP/WAMP**
+   - Copy folder to htdocs and go to: http://localhost/library/
    
    **Default admin login:**
    - Email: admin@library.com
@@ -113,12 +125,29 @@ library/
    - Check notifications for approval status
    - View request history
 
+## Automated Startup
+
+The project includes automated startup scripts for easy deployment:
+
+- **`run.vbs`** - Windows VBScript (double-click to run)
+- **`start.bat`** - Windows batch file (right-click to run)
+- **`start.sh`** - Linux/macOS shell script (double-click or `./start.sh`)
+- **`INSTRUCTIONS.txt`** - Detailed startup guide for all platforms
+
+**Features:**
+- Automatically checks for PHP installation
+- Starts PHP built-in server on localhost:8080
+- Opens the application in your default browser
+- Cross-platform compatible file paths
+- No manual configuration required
+
 ## Technologies Used
 
 - **Backend:** PHP 7.4+, SQLite
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Design:** Flat, modern design with Poppins font
 - **Security:** Prepared statements, password hashing
+- **Automation:** Cross-platform startup scripts
 
 ## Color Scheme
 
