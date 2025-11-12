@@ -82,7 +82,32 @@ try {
             ['Calculus', 'James Stewart', 'Mathematics', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=400&fit=crop'],
             ['Linear Algebra', 'Gilbert Strang', 'Mathematics', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=300&h=400&fit=crop'],
             ['The Art of War', 'Sun Tzu', 'History', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop'],
-            ['Sapiens', 'Yuval Noah Harari', 'History', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop']
+            ['Sapiens', 'Yuval Noah Harari', 'History', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop'],
+            ['Data Structures and Algorithms', 'Michael T. Goodrich', 'Programming', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=400&fit=crop'],
+            ['Machine Learning Yearning', 'Andrew Ng', 'Technology', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop'],
+            ['The Lean Startup', 'Eric Ries', 'Technology', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=300&h=400&fit=crop'],
+            ['Atomic Habits', 'James Clear', 'Other', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=400&fit=crop'],
+            ['The Catcher in the Rye', 'J.D. Salinger', 'Literature', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop'],
+            ['Brave New World', 'Aldous Huxley', 'Literature', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop'],
+            ['The Great Gatsby', 'F. Scott Fitzgerald', 'Literature', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop'],
+            ['Quantum Physics', 'Stephen Gasiorowicz', 'Science', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=300&h=400&fit=crop'],
+            ['The Selfish Gene', 'Richard Dawkins', 'Science', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=300&h=400&fit=crop'],
+            ['Astrophysics for People in a Hurry', 'Neil deGrasse Tyson', 'Science', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop'],
+            ['Statistics', 'David Freedman', 'Mathematics', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=400&fit=crop'],
+            ['Discrete Mathematics', 'Kenneth Rosen', 'Mathematics', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=300&h=400&fit=crop'],
+            ['World War II', 'Antony Beevor', 'History', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop'],
+            ['The Guns of August', 'Barbara Tuchman', 'History', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop'],
+            ['React: Up & Running', 'Stoyan Stefanov', 'Programming', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=300&h=400&fit=crop'],
+            ['Node.js Design Patterns', 'Mario Casciaro', 'Programming', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=300&h=400&fit=crop'],
+            ['The Alchemist', 'Paulo Coelho', 'Literature', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop'],
+            ['Thinking, Fast and Slow', 'Daniel Kahneman', 'Other', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop'],
+            ['The Power of Habit', 'Charles Duhigg', 'Other', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=400&fit=crop'],
+            ['Artificial Intelligence', 'Stuart Russell', 'Technology', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=400&fit=crop'],
+            ['Deep Learning', 'Ian Goodfellow', 'Technology', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=300&h=400&fit=crop'],
+            ['The Double Helix', 'James Watson', 'Science', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=300&h=400&fit=crop'],
+            ['Probability Theory', 'E.T. Jaynes', 'Mathematics', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=400&fit=crop'],
+            ['The Rise and Fall of the Third Reich', 'William Shirer', 'History', 'https://www.africau.edu/images/default/sample.pdf', 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop'],
+            ['You Don\'t Know JS', 'Kyle Simpson', 'Programming', 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=300&h=400&fit=crop']
         ];
         
         $stmt = $conn->prepare("INSERT INTO books (title, author, category, file_link, image_url, uploaded_by) VALUES (?, ?, ?, ?, ?, 1)");
