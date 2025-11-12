@@ -1,6 +1,6 @@
 <?php
 try {
-    $db_path = __DIR__ . '/library.db';
+    $db_path = __DIR__ . DIRECTORY_SEPARATOR . 'library.db';
     $conn = new PDO('sqlite:' . $db_path);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
