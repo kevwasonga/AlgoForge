@@ -27,11 +27,7 @@ if ($_POST) {
                 $_SESSION['user_name'] = $user['name'];
                 $_SESSION['user_role'] = $user['role'];
                 
-                if ($role === 'admin') {
-                    header('Location: admin/dashboard.php');
-                } else {
-                    header('Location: student/dashboard.php');
-                }
+                header('Location: index.php');
                 exit;
             } else {
                 $message = 'Invalid credentials';
