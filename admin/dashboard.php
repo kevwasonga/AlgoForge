@@ -86,7 +86,8 @@ $total_students = $conn->query("SELECT COUNT(*) FROM users WHERE role = 'student
                         <td><?= htmlspecialchars($book['author']) ?></td>
                         <td><?= htmlspecialchars($book['category']) ?></td>
                         <td>
-                            <a href="edit_book.php?id=<?= $book['id'] ?>" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;">Edit</a>
+                            <a href="upload_book.php?edit=<?= $book['id'] ?>" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;">Edit</a>
+                            <a href="?delete=<?= $book['id'] ?>" class="btn btn-danger" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;" onclick="return confirm('Delete this book?')">Delete</a>
                         </td>
                     </tr>
                     <?php endforeach; ?>
@@ -97,5 +98,13 @@ $total_students = $conn->query("SELECT COUNT(*) FROM users WHERE role = 'student
             <?php endif; ?>
         </div>
     </div>
+    <?php
+    if (isset($_GET['delete'])) {
+        $book_id = $_GET['delete'];
+        $stmt = $conn->prepare("DELETE FROM books WHERE id = ?");
+        $stmt->execute([$book_id]);
+        echo "<script>window.location.href = 'dashboard.php';</script>";
+    }
+    ?>
 </body>
 </html>
