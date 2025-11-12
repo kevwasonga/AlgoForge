@@ -34,10 +34,10 @@ if ($_POST) {
         
         if (in_array($ext, $allowed)) {
             $new_filename = uniqid() . '.' . $ext;
-            $upload_path = '../uploads/' . $new_filename;
+            $upload_path = '..' . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . $new_filename;
             
             if (move_uploaded_file($_FILES['book_image']['tmp_name'], $upload_path)) {
-                $image_url = 'uploads/' . $new_filename;
+                $image_url = 'uploads' . DIRECTORY_SEPARATOR . $new_filename;
                 $message .= ' Image uploaded successfully!';
             } else {
                 $message .= ' Image upload failed!';
